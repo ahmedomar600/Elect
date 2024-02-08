@@ -23,7 +23,7 @@ const AllPage = () => {
             <span className={Down ? "listIcon" : ""}>^</span>
           </a>
 
-          <div className={Down ? "Ahmed" : "AhmedT"}>
+          <div className={Down ? "AhmedB" : "AhmedT"}>
             <ul class="list-group list-group-flush">
               <li class="list-group-item list-group-item-action text-black">
                 <a className="text-black" href="/">
