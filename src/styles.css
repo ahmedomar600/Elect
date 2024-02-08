@@ -1,0 +1,1406 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #233040;
+  border-radius: 6px;
+}
+
+/* ::-webkit-scrollbar-track {
+  background-color: #fdda06;
+  border-radius: 6px;
+  border: none;
+  opacity: 0.3;
+} */
+::-webkit-scrollbar {
+  background-color: gainsboro;
+  width: 15px;
+  opacity: 0.3;
+  border-radius: 6px;
+}
+body {
+  background-color: #f5f5f5;
+}
+/* header  */
+.white {
+  color: white;
+  cursor: pointer;
+}
+
+/* .white:hover {
+  color: #fdda06;
+} */
+
+.background {
+  background-color: #233040;
+}
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #233040;
+  margin: 0;
+
+  border-bottom: 1px solid #394553;
+}
+@media (min-width: 788px) {
+  .containers {
+    padding: 0 25px !important;
+  }
+}
+.containers ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.containers ul li {
+  padding: 5px;
+}
+.containers ul li:hover svg,
+a {
+  color: #fdda06;
+}
+
+ul li {
+  list-style: none;
+}
+.ICON {
+  text-align: center;
+}
+
+@media (min-width: 10px) and (max-width: 788px) {
+  .HeaderCen {
+    margin: auto;
+  }
+  .containers {
+    padding-top: 10px;
+  }
+}
+.Ahmed {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  background-color: #233040;
+  color: white;
+  border-bottom: 1px solid #394553;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+a:hover {
+  color: #fdda06 !important;
+}
+
+.shop {
+  color: #fdda06 !important;
+  margin-left: 3px;
+}
+
+/*  nav 3   */
+.navx {
+  display: flex;
+  background-color: #233040;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.navx .nav-link {
+  background-color: #233040 !important;
+}
+.burger {
+  display: none;
+}
+.Need {
+  padding-top: 6px;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .nav-tabs {
+    display: none;
+  }
+  .burger {
+    display: block;
+    font-size: 29px;
+    width: 25px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 0px 10px 25px;
+  }
+  .Need {
+    align-items: center;
+    display: flex;
+    padding-top: 0;
+  }
+}
+/*end header     
+     */
+
+a.list {
+  background-color: #fdda06 !important;
+  color: black !important;
+  padding: 13px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+a.list span {
+  transform: rotate(360deg);
+  transition: 0.3s;
+}
+a.list .listIcon {
+  transform: rotate(540deg);
+  transition: 0.3s;
+}
+
+div.collaapse {
+  margin-top: -16px;
+}
+
+.sliderback {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+}
+.textcn {
+  position: absolute;
+  left: 222px;
+  top: 14px;
+  width: 195px;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .textcn {
+    position: absolute;
+    left: 174px;
+    top: -4px;
+    width: 195px;
+  }
+}
+/* swiper  */
+.swiper-wrapper {
+  padding: 45px 23px !important;
+  margin: 0 !important;
+}
+
+.swiper-button-next:after {
+  content: "next" !important;
+  font-size: 30px !important;
+  color: #fdda06;
+}
+.swiper-button-prev:after {
+  content: "prev" !important ;
+  font-size: 30px !important;
+  color: #fdda06;
+}
+/* .swiper-button-prev {
+  top: 21px !important;
+  left: 328px !important;
+}
+.swiper-button-prev:after {
+  content: "prev" !important ;
+  font-size: 20px !important;
+  color: black;
+}
+.swiper-button-next {
+  position: absolute !important;
+  top: 21px !important;
+}
+.swiper-button-next:after {
+  content: "next" !important;
+  font-size: 20px !important;
+  color: black;
+}
+@include media-breakpoint-up(sm) {
+  .swiper-button-next:after {
+    content: "next" !important;
+    font-size: 20px !important;
+    color: red;
+  }
+} */
+/* @include media-breakpoint-up(md) {
+  ...;
+}
+@include media-breakpoint-up(lg) {
+  ...;
+}
+@include media-breakpoint-up(xl) {
+  ...;
+}
+@include media-breakpoint-up(xxl) {
+  ...;
+} */
+
+.PopSwiper {
+  background-color: white;
+  padding: 0px 8px;
+  width: 215.5px !important;
+  border-radius: 7px;
+  margin-right: 30px;
+  position: relative;
+}
+.PopSwiper:hover .CardSw button {
+  background-color: #fdda06;
+}
+
+/* swiper  */
+/*  swiper card  */
+h3.prodect {
+  margin-left: 46px;
+  margin-bottom: -15px;
+  font-weight: bold;
+}
+.carousel-inner {
+  border-radius: 6px;
+}
+
+.CardSw p {
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  height: 89px;
+}
+
+.CardSw .price {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.CardSw button {
+  width: 89%;
+  margin: 10px;
+  padding: 10px 16px;
+  color: black;
+  background-color: #f5f5f5;
+}
+.CardSw button:hover {
+  background-color: #fdda06;
+}
+.CardSwImg {
+  width: 99%;
+  margin: 10px 0;
+  border-radius: 6px;
+  height: auto;
+}
+.CardSwImgCatlog {
+  width: 99%;
+  margin: 10px 0;
+  border-radius: 6px;
+  height: 360px;
+}
+.CardSw .discount {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  color: red;
+  transition: 0.3s;
+}
+.PopSwiper:hover .discount {
+  display: none;
+  transition: 0.3s;
+}
+.PopSwiper .IconProduct {
+  position: absolute;
+  left: 85%;
+  top: 5px;
+  z-index: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .swiper-wrapper {
+    margin-left: -127px;
+  }
+}
+/*  swiper card  */
+
+/*  card cam  */
+
+.CardCam {
+  padding: 0 44px;
+  position: relative;
+  padding-bottom: 57px;
+}
+
+.CardCam img {
+  width: 100%;
+  border-radius: 7px;
+}
+.CardCamIn {
+  position: absolute;
+  left: 85px;
+  bottom: 61px;
+  font-weight: bolder;
+}
+.CardCamIn h5 {
+  color: #0000006b;
+  background-color: #fdda06;
+  width: 307px;
+}
+.CardCamIn p {
+  color: white;
+  width: 460px;
+  font-size: 32px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .CardCam {
+    padding: 1px 21px;
+    position: relative;
+  }
+  .CardCam img {
+    width: 100%;
+    border-radius: 7px;
+  }
+  .CardCamIn {
+    position: absolute;
+    left: 50px;
+    bottom: -21px;
+    font-weight: bolder;
+  }
+  .CardCamIn h5 {
+    color: #0000006b;
+    background-color: #fdda06;
+    width: fit-content;
+    font-size: 16px;
+    margin-bottom: -3px;
+  }
+  .CardCamIn p {
+    color: white;
+    width: 273px;
+    font-size:calc(16px +(24 - 16) * ((100vm - 320px )/(1920-320)));
+    margin-bottom: 22px;
+  }
+}
+/*  card cam */
+
+/*  swiper All 2 */
+.slide2 {
+  width: 318px !important;
+  position: relative !important;
+  margin-right: 10px !important;
+  height: 325px !important;
+}
+.slide2 .TS2 {
+  padding: 15px 11px !important;
+}
+.slide2 .TS2 h1 {
+  font-size: 20px !important;
+  color: #233040;
+}
+.slide2 .TS2 h5 {
+  font-size: 16px !important;
+  padding: 4px 0;
+  color: #233040;
+  opacity: 0.8;
+}
+.slide2 .IS2 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.slide2 .IS2 img {
+}
+/*  swiper All 2 */
+
+/*  swiper All 3 */
+.mySwiper {
+  padding-left: 10px;
+  padding-right: 33px !important;
+}
+.Swiper3Img {
+  width: 100%;
+  border-radius: 7px;
+}
+.Sw3h5 {
+  height: 9px;
+}
+.Sw3h5 h5 {
+  font-size: 17px;
+  background-color: #fdda06;
+  width: fit-content;
+  position: relative;
+  bottom: 15px;
+  z-index: 2;
+  left: 13px;
+  border-radius: 6px;
+  padding: 4px;
+}
+.Swc3 {
+  width: 100%;
+  background-color: white;
+  padding: 12px;
+  position: relative;
+  bottom: 7px;
+  border-radius: 14px;
+}
+.Swc3 h1 {
+  font-size: 21px;
+}
+.Swc3 p {
+  font-size: 12px;
+}
+/*  swiper All 3 */
+
+/*  swiper All 4 */
+.Swiper4Width {
+  width: 95%;
+}
+.BoxImgS4 {
+  margin: auto;
+  transition: 0.4s;
+  opacity: 0.6;
+}
+.BoxImgS4:hover {
+  opacity: 1;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .BoxImgS4 {
+    text-align: center;
+  }
+}
+/*  swiper All 4 */
+
+/* compeny */
+.compeny {
+  display: flex;
+  padding: 18px 18px;
+  background-color: white;
+  width: 97%;
+  margin: 0 15px;
+  border-radius: 6px;
+}
+
+.compenyImg {
+  width: 46%;
+}
+.compenyImg img {
+  width: 100%;
+  border-radius: 7px;
+}
+.compenyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 21px;
+}
+.compenyCard h4 {
+  width: 99%;
+}
+.compenyCard button {
+  width: fit-content;
+  background: #fdda06;
+  padding: 9px 10px;
+}
+.compenyCard button:hover {
+  background: #fdda06;
+}
+@media (min-width: 10px) and (max-width: 730px) {
+  .compeny {
+    display: block !important;
+    padding: 18px 18px;
+    background-color: white;
+    width: 93%;
+    margin: 0 17px;
+    border-radius: 6px;
+  }
+  .compenyImg {
+    width: 98%;
+  }
+  .compenyImg img {
+    width: 98%;
+    border-radius: 7px;
+  }
+
+  .compenyCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 21px;
+    padding: 10px 0;
+  }
+}
+/* compeny */
+/* services */
+.services {
+  margin: 9px 18px;
+  background-color: white;
+  margin-right: 24px;
+}
+.servicesO {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid gainsboro;
+  gap: 11px;
+  padding: 19px 0;
+  margin: 0 38px;
+}
+.ico {
+  font-size: 38px;
+}
+.servicesC {
+  position: relative;
+  margin-top: 16px;
+}
+.servicesC h2 {
+  font-size: 21px;
+}
+.servicesC p {
+  font-size: 13px;
+}
+
+/* compeny */
+/* client */
+.client {
+  display: flex;
+  padding: 8px 8px;
+}
+
+.ClientSw {
+  width: 70%;
+  margin-right: 30px;
+}
+.ClientSw .swiper-wrapper {
+  padding: 15px 17px !important;
+}
+
+.SlideClient {
+  width: 612px;
+  text-align: center;
+  background: white;
+  padding: 10px 11px;
+  margin-right: 30px;
+}
+
+.CardClient h2 {
+  padding: 16px 0;
+  border-bottom: 1px solid gainsboro;
+}
+.CardClient img {
+  width: 60px;
+  height: 60px;
+  border-radius: 66%;
+}
+.CardClient p {
+  font-size: 17px;
+  width: 100%;
+  padding: 20px 34px;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .client {
+    display: block;
+    padding: 8px 8px;
+  }
+  .ClientSw {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .client img {
+    margin: auto;
+    display: flex;
+  }
+}
+/* client */
+
+/* footer */
+.footer {
+  display: flex;
+  padding: 31px 20px;
+  background-color: #233040;
+  gap: 5px;
+  margin-top: 60px;
+  border-bottom: 1px solid darkgray;
+}
+.footerEmail {
+  width: 45%;
+}
+.footerEmail h1 {
+  color: white;
+  font-size: 25px;
+}
+.footerEmail p {
+  color: darkgrey;
+  font-size: 15px;
+}
+.footerEmail input {
+  color: darkgray;
+  padding: 10px 11px;
+  border-radius: 8px;
+  border: 0;
+  width: 63%;
+}
+.footerEmail button {
+  border: 0;
+  padding: 8px 24px;
+  margin-left: 9px;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #fdda06;
+}
+
+.footerApp {
+  background-color: #2e3f54;
+  padding: 19px 97px;
+  text-align: center;
+  border-radius: 6px;
+}
+.footerApp h4 {
+  color: white;
+}
+.footerApp p {
+  color: darkgray;
+}
+.footerApp img {
+  padding: 0 10px;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .footer {
+    display: block;
+    padding: 30px 20px;
+    background-color: #233040;
+    gap: 5px;
+  }
+  .footerEmail {
+    width: 100%;
+    padding: 17px 10px;
+  }
+  .footerEmail input {
+    color: darkgray;
+    padding: 10px 11px;
+    border-radius: 8px;
+    border: 0;
+    width: 62%;
+  }
+  .footerEmail button {
+    border: 0;
+    padding: 8px 5px;
+    margin-left: 9px;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 30%;
+    background-color: #fdda06;
+  }
+}
+/* footer */
+
+.fotter2 a {
+  color: darkgray !important;
+}
+.fotter2 {
+  background-color: #233040;
+  display: flex;
+  gap: 75px;
+  padding: 19px 26px;
+}
+.fotter2 h1 {
+  font-size: 20px;
+  color: white;
+}
+.fotter2 .ContactUs {
+  width: 317px;
+  border-right: 1px solid darkgrey;
+}
+.fotter2 .ContactUs h1 {
+  color: white;
+  font-size: 23px;
+}
+.fotter2 .ContactUs p {
+  color: darkgray;
+  margin: 0;
+}
+.fotter2 .ContactUs h5 {
+  color: darkgray;
+}
+.fotter2 .ContactUs h4 {
+  color: darkgray;
+}
+.fotter2 .NeedHelp {
+  margin-left: -26px;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .fotter2 {
+    display: block;
+    text-align: center;
+  }
+  .fotter2 .NeedHelp {
+    margin-left: 0;
+  }
+  .fotter2 .ContactUs {
+    width: 100%;
+
+    border-right: 1px solid darkgrey;
+  }
+}
+.footer3 {
+  padding: 8px 0;
+  background-color: #233040;
+  color: white;
+  border-top: 1px solid darkgrey;
+}
+
+/* .textcn {
+  position: absolute;
+  left: 174px;
+  top: -4px;
+  width: 195px;
+}  ##################################*/
+
+.Card {
+  position: relative;
+  display: flex;
+  gap: 7px;
+  padding: 10px 23px;
+}
+
+.CardOne {
+  position: relative;
+}
+
+.CardTwo {
+  position: relative;
+}
+
+.CardImg img {
+  width: 100%;
+}
+
+.textCardOne {
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 10px;
+  width: 70%; /* تحديد عرض النص على الصورة */
+}
+.textCardOne p {
+  font-size: 30px;
+}
+.textCardTwo {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 23%;
+  color: white;
+}
+
+.textCardTwo p {
+  font-size: 30px;
+}
+
+@media (min-width: 10px) and (max-width: 788px) {
+  .Card {
+    position: relative;
+    display: block;
+    gap: 7px;
+    padding: 10px 23px;
+  }
+  .CardOne {
+    position: relative;
+    margin: 10px 0;
+  }
+  .textCardOne {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 51%;
+    font-size: 21px;
+  }
+
+  .textCardTwo {
+    position: absolute;
+    top: 75%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 49%;
+    color: white;
+    font-size: 22px;
+  }
+  .textCardOne p {
+    font-size: 100%;
+  }
+  .textCardTwo p {
+    font-size: 100%;
+  }
+}
+
+.listMenu a {
+  display: flex;
+  color: black !important;
+  font-size: 19px;
+  font-weight: 500;
+  border-bottom: 1px solid darkgray;
+  padding: 15px 0;
+  width: 50%;
+  transition: 0.4s;
+}
+
+.listMenu a:hover {
+  color: #fdda06 !important;
+  width: 100%;
+}
+.listMenu a:last-child {
+  border-bottom: none;
+}
+.BurIcon {
+  color: #fdda06;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 7px;
+}
+.Catalog {
+  padding: 10px 25px;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 17px;
+}
+
+.Catalog .CatalogCard {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+/* .Catalog {
+
+@media (min-width: 768px) {
+ .col-md-4 {
+    flex: 0 0 auto  !important; 
+    width: 32.333333%  !important;
+}
+}
+@media (min-width: 576px){
+ .col-sm-6 {
+    flex: 0 0 auto  !important;
+    width: 49%  !important;
+}
+}
+} */
+/* @media (min-width: 400px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 23.333333% !important;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 48% !important;
+  }
+} */
+.ContactIn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.ContactIn input {
+  padding: 5px 6px;
+  margin: 10px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.ContactIn input:focus {
+  border: 1px solid #e5e5e5;
+}
+.ContactIn input:nth-child(5) {
+  padding-top: 0px;
+  padding-bottom: 34px;
+}
+.ContactIn button {
+  width: fit-content;
+  margin: auto;
+  padding: 7px 47px;
+  background-color: #fdda06;
+  border: none;
+  border-radius: 7px;
+}
+.ContactIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+}
+.ContactIcon p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .ContactDsplay {
+    display: block !important;
+  }
+  .ContactIn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ContactMe {
+    padding: 16px 0;
+  }
+}
+.UserLogin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  background-color: white;
+  padding: 25px 0;
+  margin: 15px 0;
+}
+.FormLogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Login h3 {
+}
+.Login input {
+  padding: 5px 7px;
+  border: 1px solid lightgray;
+  width: 80%;
+  margin: 12px 0 0 0;
+  border-radius: 4px;
+}
+.Login button {
+  padding: 2px 16px;
+  border: 1px solid lightgray;
+  padding: 7px 22px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.Login button:nth-child(2) {
+  background: #fdda06 !important;
+}
+.Login button:nth-child(1):hover {
+  background: #fdda06 !important;
+}
+.Login a {
+  color: black !important;
+  text-align: start;
+  width: 80%;
+  padding: 4px 0 10px 0;
+}
+.EventUser {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  justify-content: center;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .EventUser {
+    flex-direction: column !important;
+  }
+  .Login {
+    width: 70%;
+  }
+}
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+}
+.CreateRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 36px 0;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.CreateRegister input {
+  padding: 6px 6px;
+  margin: 11px 0px 0 0;
+  width: 80%;
+  border: 1px solid lightgray;
+}
+
+.CreateRegister p {
+  text-align: center;
+}
+.CreateRegister input {
+  padding: 6px 6px;
+  margin: 11px 0px 0 0;
+  width: 80%;
+  border: 1px solid lightgray;
+}
+.CreateRegister button {
+  padding: 6px 6px;
+  margin: 11px 0px 0 0;
+  width: fit-content;
+  padding: 6px 23px !important;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+/* start catalog Filter */
+.leftFilter {
+  background: white;
+  z-index: 100;
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+.CloseFilter {
+  display: none;
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  border: none;
+  background-color: white;
+  font-size: 31px;
+}
+.listFilter {
+  flex-direction: column;
+  display: flex;
+}
+.listFilter a {
+  color: black !important;
+  padding: 10px;
+}
+.listFilter a:hover {
+  color: #fdda06 !important;
+}
+/* end catalog Filter */
+.open {
+  width: 45%;
+}
+@media (min-width: 10px) and (max-width: 500px) {
+  .open {
+    width: 100%;
+  }
+}
+.CatalogFilter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 31px;
+  align-items: center;
+}
+.CatalogFilter .mainFilterbtn {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.listFilter .itemFilter a {
+  display: flex;
+  justify-content: space-between;
+}
+/*        prodact cart one item            */
+.ProdectCart {
+  display: flex;
+}
+.SwiperCart {
+  width: 50%;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .ProdectCart {
+    display: block;
+  }
+  .SwiperCart {
+    width: 100%;
+  }
+  .buildRev button {
+    margin-left: 53% !important;
+    padding: 7px 16px;
+    border: none;
+    background-color: #fdda06;
+    border-radius: 7px;
+    font-weight: 60;
+  }
+}
+.descProdact {
+  padding: 15px;
+  margin-top: 31px;
+}
+.descProdact .descPrice {
+  font-weight: 700;
+}
+.descProdact .descPrice span {
+  margin-left: 10px;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+.descProdact p {
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 2px 0px;
+}
+.descProdact .info {
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 0px;
+}
+.descProdact .infoBtn {
+  display: flex;
+  gap: 10px;
+}
+.descProdact .infoBtn button:first-child {
+  padding: 7px 16px;
+  width: 50%;
+  border: none;
+  background-color: #fdda06;
+  border-radius: 7px;
+  font-weight: 600;
+}
+.descProdact .infoBtn button:last-child {
+  padding: 7px 16px;
+  width: 50%;
+  border: none;
+  background-color: #273040;
+  color: white;
+  font-weight: 600;
+}
+
+.ToOpenWidth {
+  font-size: 14px;
+  margin: 19px 0;
+}
+
+.ToOpenWidth h1 {
+  cursor: pointer;
+  font-size: 21px;
+  margin: 0;
+}
+.sss {
+  opacity: 0; /* ابدأ بتعيين الشفافية إلى 0 */
+  max-height: 0; /* ابدأ بتعيين أقصى ارتفاع إلى 0 */
+  overflow: hidden; /* قم بإخفاء المحتوى الزائد */
+  transition: opacity 0.3s, max-height 0.8s, visibility 0.6s; /* قم بتطبيق التحولات على الشفافية وأقصى ارتفاع والرؤية */
+  visibility: hidden; /* قم بإخفاء العنصر في البداية */
+}
+
+.ToCartWidth {
+  opacity: 1; /* اجعل العنصر مرئيًا بالكامل عند التحويل بوضع المؤشر عليه */
+  max-height: 300px; /* قم بتعيين ارتفاع أقصى معقول للسماح للمحتوى بالتوسع */
+  visibility: visible; /* اجعل العنصر مرئيًا عند تحويل المؤشر بوضعه عليه */
+  transition: opacity 0.3s, max-height 0.8s, visibility 0.6s; /* قم بتطبيق التحولات على الشفافية وأقصى ارتفاع والرؤية */
+}
+.TabDesc {
+  padding: 20px;
+}
+.reviews {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+.buildRev {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 0 20px 0;
+}
+.buildRev button {
+  margin-left: 84%;
+  padding: 7px 16px;
+  border: none;
+  background-color: #fdda06;
+  border-radius: 7px;
+  font-weight: 60;
+}
+.reviewsComment {
+  margin: 15px 0;
+}
+.reviewsComment h4 {
+  font-size: 16px;
+}
+.reviewsComment h3 {
+  font-size: 16px;
+  font-weight: 800;
+}
+.reviewsComment p {
+  font-size: 18px;
+}
+.react-tabs__tab-list {
+  border: none !important;
+  margin: 0 !important;
+}
+.react-tabs__tab--selected {
+  background-color: #fdda06 !important;
+}
+.DESCRIPTION {
+  background-color: white;
+  padding: 10px;
+}
+.cartdivleft .RightCart {
+  background: white;
+  z-index: 100;
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+.cartdivleft .open {
+  width: 40%;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .cartdivleft .open {
+    width: 80%;
+  }
+}
+.secondcart img {
+  width: 20%;
+  height: 20%;
+}
+/* cart left now  */
+.firstsec {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondcart {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+.secondcart button {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  border: none;
+  background: white;
+}
+.sec3cart {
+  padding: 10px;
+  background: #f5f5f5;
+}
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+}
+.cartBtns {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 10px;
+  margin: auto;
+}
+.cartBtns button:first-child {
+  border: none;
+  background-color: #233040;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 7px;
+}
+.cartBtns button:last-child {
+  border: none;
+  background-color: #fdda06;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+/* cart table page  */
+.CArt {
+  padding: 20px;
+}
+.CArt .CartTable {
+  width: 100%;
+}
+.CArt .CartTable thead tr th:first-child {
+  width: 50%;
+}
+.CArt .CartTable tbody {
+  position: relative;
+  top: 25px;
+  border-top: 1px solid black;
+}
+.CArt .CartTable tbody tr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.CArt .CartTable tbody tr td:first-child {
+  padding: 10px;
+}
+.CArt .CartTable tbody tr td:nth-child(2) {
+  font-weight: 800;
+}
+.CArt .CartTable tbody tr td:nth-child(4) {
+  font-weight: 800;
+}
+.imgTable {
+  width: 25%;
+  height: 20%;
+  padding: 0px 26px 0px 0px;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .imgTable  {
+    width: 80%;
+  }
+}
+.btnContinuestore {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnContinuestore button {
+  border: none;
+  padding: 10px;
+  background-color: #fdda06;
+  border-radius: 6px;
+}
+.btnContinuestore p {
+  font-size: 20px;
+}
+.btnContinuestore p span {
+  font-weight: 800;
+}
+.btncheckout {
+  padding: 0 20px;
+  margin-left: 84%;
+}
+.btncheckout button {
+  border: none;
+  padding: 10px 15px;
+  background-color: #fdda06;
+  border-radius: 6px;
+}
+@media (min-width: 10px) and (max-width: 788px) {
+  .btncheckout {
+    padding: 0;
+    margin-left: 40%;
+  }
+  .CArt .CartTable tbody tr td:nth-child(3) {
+    margin-right: 12px;
+  }
+}
+.Ahmed {
+height: 0px;
+transition: 2s;
+
+}
+.AhmedT {
+  height: 150px;
+ 
+}
