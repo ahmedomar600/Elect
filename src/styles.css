@@ -1396,11 +1396,15 @@ h3.prodect {
   }
 }
 .Ahmed {
-height: 0px;
-transition: 2s;
+  transition: 1.8s;
+  height: 0;
+  overflow: hidden;
+  background: white;
+  text-align: start;
 
 }
 .AhmedT {
-  height: 150px;
- 
+  height: 200px;
+  transition: 1.7s;
+
 }
