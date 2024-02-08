@@ -23,8 +23,7 @@ const AllPage = () => {
             <span className={Down ? "listIcon" : ""}>^</span>
           </a>
 
-
-          <div className="collapse text-black" id="collapseExample">
+          <div className={Down ? "Ahmed" : "AhmedT"}>
             <ul class="list-group list-group-flush">
               <li class="list-group-item list-group-item-action text-black">
                 <a className="text-black" href="/">
@@ -55,7 +54,6 @@ const AllPage = () => {
           </div>
         </p>
       </div>
-      
       {/* end all pages  */}
     </>
   );
